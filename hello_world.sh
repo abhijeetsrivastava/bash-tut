@@ -42,7 +42,7 @@ echo $WORLD
 # Passing arguments to the bash script
 
 # predefiened variables
-echo $1 $2 
+echo $1 $2
 
 # use @ to access all arguments at once
 echo $@
@@ -80,7 +80,7 @@ echo ${colors[0]} ${colors[1]}
 ####################################################
 # for loop
 for a in `seq 1 10`; do
-    echo "$HELLO $a" 
+    echo "$HELLO $a"
     sleep 1;
 done
 
@@ -98,7 +98,7 @@ bashtrap() {
 }
 
 for a in `seq 1 10`; do
-    echo "$a/10 to Exit." 
+    echo "$a/10 to Exit."
     sleep 1;
 done
 echo "Exit Bash Trap Example!!!"
@@ -148,7 +148,7 @@ exec 0<&10 10<&-
 #
 # if [ condition ]; then
 #     echo "something"
-# else 
+# else
 #     echo "something else"
 # fi
 #
@@ -156,7 +156,7 @@ exec 0<&10 10<&-
 directory="/bin/"
 if [ -d $directory]; then
     echo "Exists"
-else 
+else
     echo "Does Not"
 fi
 
@@ -164,24 +164,24 @@ fi
 ####################################################
 # Bash Comparisons
 ## Arithmetic Comparisons
-# -lt     < 
-# -gt     > 
+# -lt     <
+# -gt     >
 # -le     <=
 # -ge     >=
 # -eq     ==
 # -ne     !=
-  
+
 ## String Comparisons
 
-# =        equal                    
-# !=       not equal                
-# <        less than                
-# >        greater than             
-# -n s1    string s1 is not empty   
-# -z s1    string s1 is empty       
+# =        equal
+# !=       not equal
+# <        less than
+# >        greater than
+# -n s1    string s1 is not empty
+# -z s1    string s1 is empty
 
 # Bash file testing
-# In bash, we can test to see different characteristics about a file 
+# In bash, we can test to see different characteristics about a file
 # or directory.
 
 
@@ -199,12 +199,12 @@ done
 
 # while
 while [[ condition ]]; do
-    
+
 done
 
 # until
 until [[ condition ]]; do
-    
+
 done
 
 
@@ -235,7 +235,7 @@ A
 # #util
 
 select word in "linux" "bash" "script"
-do 
+do
     echo  "The word you have selected is: $word"
     break
 done
