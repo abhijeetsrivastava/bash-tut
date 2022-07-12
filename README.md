@@ -1,10 +1,10 @@
 # Table of Content
 
-[Bash Tutorial](Bash Tutorial)
-[Make README a shell script](Make README a shell script)
-[Vim things](Vim things)
-[Bash](Bash)
-[License](License)
+1. [Bash Tutorial](#Bash-Tutorial)
+2. [Make README a shell script](#Make-README-a-shell-script)
+3. [Vim things](#Vim-things)
+4. [Bash](#Bash)
+5. [License](#License)
 
 # Bash Tutorial
 
