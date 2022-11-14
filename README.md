@@ -8,10 +8,11 @@
 
 # Bash Tutorial
 
-Bash tutorial from mostly https://linuxconfig.org/bash-scripting-tutorial
+Bash tutorial from mostly <https://linuxconfig.org/bash-scripting-tutorial>
 There are other tutorials too which I used to understand/implement Bash in vim.
 
 # Make README a shell script
+
 : shell script
 
 ## For loop
@@ -24,6 +25,7 @@ done
 ```
 
 ## run the bash
+
 ```shell
 chmod +x markdown.md
 ./markdown.md
@@ -72,4 +74,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
